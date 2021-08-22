@@ -19,6 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "LopPaySDK/Classes/**/*",
+  "vendored_frameworks": "LopPaySDK/Classes/SDKTest.framework",
   "frameworks": [
     "UIKit",
     "Foundation",

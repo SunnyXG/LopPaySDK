@@ -7,126 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		063696CF8378BCA43D884041153E2F0D /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A19F12BCD4B0D5DFEC2D5DAB061C67B /* YYClassInfo.m */; };
 		0FC2C7300D3DE350BD73741888D9A1A8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA006A3FAEF947CB8E78212650959893 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		122090029BCF194E625E450B040AFCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B5B33A6CB151841BFECD41DB6252CE /* CoreGraphics.framework */; };
 		13ACBB7FD3A71A0B41771D5690332E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
 		18AEFCE986FB74A0B6B092B3BA2267C6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C4E172F9D82401C68DB5B18705165E /* UIImageView+AFNetworking.m */; };
 		22AD28E260EF21FECAAEF40B04E8E020 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E6C1020C05A5F5F8A64D2CE45CEF1 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23AEAF5E77D59B98AE79C57BAE746C1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
-		27723E9A7C3CF8D4A5701A23B25045F8 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F2318E3C69D7BAB9A51117DF2FF34 /* CodeDirectory */; };
+		27723E9A7C3CF8D4A5701A23B25045F8 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 17A64032032653225703519C7A2EC915 /* CodeDirectory */; };
 		27A1AA22D234973BA30D8493C546884C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF459FA2FF4AFFF6F58C922326857F9 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AB52C7962046BC8963B2CD626F22BD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FE7E83821C648A122086B8A54F5EB0 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B9062878E9BC37CF38C333A5D46AAE2 /* LopPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D21D89254C740B8DCCB31AC642BA8A /* LopPaySDK-dummy.m */; };
+		27FC5233C2A14C82A4713E556ECE87D0 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B576270905E9ABDE191FE719C98F5 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9062878E9BC37CF38C333A5D46AAE2 /* LopPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C885917354C08A32EE0DCC7DD8D00A39 /* LopPaySDK-dummy.m */; };
 		33B9A195FDB315F18465CB1BA24D74A9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C52485B56B4B18A0871E134C32727F /* AFHTTPSessionManager.m */; };
 		347731E8D4C4F27FC53DDFAC590481D6 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A722ED5F3705C45D399C0BB8D34D945C /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E7A25BCE5BAC256FBBA56106C3192CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A1D3942E5946686ADAF6CDCE917E05 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43DD70F6132EEEDCF494CE8610933ED7 /* Pods-LopPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320638DEF394468849B383690DEBAE63 /* Pods-LopPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		463645712E25FBA4C59B635ADE98220A /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE506D7F4B5DE3B926137F8A9912F29 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49EEB487D02A9D01FAED8BCC8AC6CB5E /* Pods-LopPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62637246A549FFC6701E2C0B11E10B9 /* Pods-LopPaySDK_Tests-dummy.m */; };
+		4C1D2B262F788902B74D65ECAB965A9E /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9F7006A91BF047D09EB36E42212478 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCB59DE84A69063E9485E4D8BF8C637 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86672056A76ABB0B578A9457342F8B07 /* AFNetworking-dummy.m */; };
-		5010C2CA0CB1FCA68A6898FE4F6B41F9 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C8E3D00696FF1B61096C20F65EECA1 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		512B8EADDA87DEC6A44C48241AD92BA6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81D4FA72F4419FCE09C848EEC3261E4 /* CoreFoundation.framework */; };
-		515F2F9455B0BA30CE776F6B39FBEF6C /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = E7263975D15675D052CA3CF00E63B40B /* CodeRequirements */; };
+		515F2F9455B0BA30CE776F6B39FBEF6C /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = F5BD733274C5627E4EAEDDA55DB47197 /* CodeRequirements */; };
 		52E68E9AFF4A9C20F05A07F3E55EAF59 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4813CBAD82DA61187ED6F8ABEE50DF02 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57744CA757400E7183DFC0D37EFB5214 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BE72040069E799A0A8FC81AFF962C4 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584233A4CEC7C9AA382A1A43C26B87EE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B94F7F785AF7738CDD61857075DA13 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE27AF46E2DE81F61752081EDB7E52B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B54ADEC4E8F1B290F1A654A0A0ADE /* AFSecurityPolicy.m */; };
-		5F807FC070B0CBF6504B6B684607E4E5 /* SDKTest in Sources */ = {isa = PBXBuildFile; fileRef = 89FFDABF8691148FCB0823FD2FBB84C2 /* SDKTest */; };
+		5F807FC070B0CBF6504B6B684607E4E5 /* SDKTest in Sources */ = {isa = PBXBuildFile; fileRef = D581F0023A03D702EE373B9AC253FCBA /* SDKTest */; };
+		62554E9F2FC70931CAE2896D35D0CEED /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A19F12BCD4B0D5DFEC2D5DAB061C67B /* YYClassInfo.m */; };
 		63419018E7222B414E161CD480398E20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EDF7AAE395E1CFFCDB0122741BD47C /* AFNetworkReachabilityManager.m */; };
 		637243EE5807271030AE4D9741392852 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FA4D99F0D09FD8479ED85E7C11C562 /* AFURLSessionManager.m */; };
 		65163D7E6539C8A1D65F5FCBA0E6EFD2 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A020FECACB116830A297CA2FACF9FD5B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		657D596F7ED1260403D4E064E6BF8CD1 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CA6895C3AF64876A8FD967C34A28CB /* WKWebView+AFNetworking.m */; };
 		6C239323DE74D9551EB571A31A24EC1E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DF32ED39D153401A09F99723C846DC /* UIProgressView+AFNetworking.m */; };
 		6DB244706298D81730C5537279B7B635 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E5206C4DFBFE8F072822FCEE035BEA /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		716BA428F5A5ED64BB285EE9BE3B1324 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18166F8972CE9C9C29AB2F0E4DF47E28 /* YYModel-dummy.m */; };
+		7E37847CA0B1B2A1EFD80F5C5D158CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
 		801724F329AA434F8BB6A11E96E5805A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE59144095BAA3A397832FD51A0920F8 /* AFAutoPurgingImageCache.m */; };
 		81C76941D750B3F226E07AE600A67FC6 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C174644B0A7218F7E180FB4F558942F1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83A56366627BCCB1D60D8B0BEF2BC6B4 /* Pods-LopPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB02D70C17F332C68438F16C821B796 /* Pods-LopPaySDK_Example-dummy.m */; };
+		8F082996BDCC00215C17CFD10CD01745 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18166F8972CE9C9C29AB2F0E4DF47E28 /* YYModel-dummy.m */; };
 		918AD88A49B79CD1B13BAD5415FE5621 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4760C7D4E7BDA0B392D2644952A5F9DA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		941E0A8D558D0FEEFEF48245DB09F0B4 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = AAD338E65767096BB0E27589E46BF9D5 /* CodeResources */; };
-		9660C4C75530C6D8C271B6AEA3E8EA2B /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 950A727A2D6431BC454B38EE75ACDC2C /* CodeRequirements-1 */; };
+		941E0A8D558D0FEEFEF48245DB09F0B4 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = EDF946434D8168944AD8BD2EDCA7BE85 /* CodeResources */; };
+		9660C4C75530C6D8C271B6AEA3E8EA2B /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E57C60451E02AFD2FA4880A7852A6 /* CodeRequirements-1 */; };
 		97EB8976E78AA2C17544A6453BC1EF04 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D25FD3061850C986E3E8FFCC27594E /* AFURLResponseSerialization.m */; };
 		9F5D472E0B58C95613C76C43148FC8B5 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7D507316407B9791C257599F780A06 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A13F6EAD8E519B028EF9AD59126F27F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
-		A626BFFDF6043909962F138FF097AA8B /* SDKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D93427D3A3597F8AE032AFE482464415 /* SDKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A423BD37B84D50EF3ABB5644880BFC12 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE506D7F4B5DE3B926137F8A9912F29 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A626BFFDF6043909962F138FF097AA8B /* SDKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EFB4889560A809D2957B15B531A6F9 /* SDKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E23F89A25F24D117C30DDE69612D84 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02439A76002B3F7508C481C892E06756 /* NSObject+YYModel.m */; };
 		AC29EE5318026D0BAF479C904536378F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECBBF52FC626381B6BF71E474BBEC46 /* UIRefreshControl+AFNetworking.m */; };
 		AD6158AF5746E99C7136F3ECA9423C63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 756F5C19D6902C84CABCEACD95C81116 /* UIActivityIndicatorView+AFNetworking.m */; };
 		B7DA5AE2EE8808176A31F845A204C190 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575F1D31C65FE09ED377984E6A828D /* UIButton+AFNetworking.m */; };
 		B8AD58C4501F99461CB07AC05DCB8705 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 86938DB8C88FDDDC45BDFF2DC135B573 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8B4A245FEFA2CE20339CA8CA8BE68EC /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE28D1A0BD2FF07D9CA42F71A7BA694 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB08D6748C698A6AA6DC7D6A2BFFE49 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2534DA97AE4F21894D0CC6B536597363 /* AFNetworkActivityIndicatorManager.m */; };
-		C70230053D5C0AD8D229768B13FD6FED /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 915B576270905E9ABDE191FE719C98F5 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E072E31048A378B16CDB5DAB470C33 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81D4FA72F4419FCE09C848EEC3261E4 /* CoreFoundation.framework */; };
 		CDEF12A353FEBC8FE4E2EA0D3FFAC615 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C2E471E810274BA87E01090F891E4E /* AFURLRequestSerialization.m */; };
-		CE3F83571E053F5F395DF4E505F947D3 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3CDB221504A7248E6366670EE3AA5 /* CodeSignature */; };
-		D177A7A2519720002CB63F0927CFA713 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = CB0F59C6C8D0A5436708CAB99A6CE1FB /* module.modulemap */; };
+		CE3F83571E053F5F395DF4E505F947D3 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = DA548F93C8B831F713BA8D944427F604 /* CodeSignature */; };
+		D177A7A2519720002CB63F0927CFA713 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 30A4EEDF9B43B7309640EA9139D46A24 /* module.modulemap */; };
 		D8B1237F510340D6A398AFC9AE5CA336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
-		DBF20A66BA7B5133A9C3FD3D91F9C2CF /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7C67468B2B6EA3200987BD6E54FCDA /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E12B398F5300D4363B76B5DDF0410984 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9F7006A91BF047D09EB36E42212478 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF20A66BA7B5133A9C3FD3D91F9C2CF /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 569692DE3E44DF3BB60347DB869B135B /* Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6167F62D14877E0AA2BAE86D794CBBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4E903B9864C74E60D0E2ACFE55CE3F /* UIKit.framework */; };
 		E8372DA8FDA0830EF5FF160493C0B37A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BED98189C514ED1B08D6FB563FE18D /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E957BA0E80BACAEE25825816A8649454 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C8E3D00696FF1B61096C20F65EECA1 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED0B81FF1DEC0B138947EA93D22E5A4E /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2098015C4BDE92A423CE07F220C6A8B /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B8613CDD20D58260C22D21BC61F38 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2C5244F6FB808B9C53F9B03C5084E3 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE4E1A8FB4563C0FA28931D4BADE98FD /* Pods-LopPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CD7DF0C667B0F449E199E1A91FE5A9 /* Pods-LopPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF99D7BA6942BC9024C6F2548D04FE9D /* LopPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE7AE752D7F42ADDC0C2C92C83A4A08 /* LopPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2584B3D6543D04784BAEB10758A3DD1 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D1B580CCD4634459D7C58F5C7C90F5B8 /* Info.plist */; };
+		EF99D7BA6942BC9024C6F2548D04FE9D /* LopPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D503C4F84E8331DD5D5039E4F75E31 /* LopPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2584B3D6543D04784BAEB10758A3DD1 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 00FA54E5C61E0D7D2BB0984AFECFD06C /* Info.plist */; };
 		F6297EB38348099488CFB884C31C9CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */; };
 		FA57C7B9116769DBBCAEE173060683A3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E108F0C3D06C3D652F8BDF013771C092 /* AFImageDownloader.m */; };
-		FDBC7399AB2B296121B18047319F93FA /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02439A76002B3F7508C481C892E06756 /* NSObject+YYModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5FAC910421CA54F19D7BF1011AB21CAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		6B8347A9A9DF4231FA989A4D0EC23316 /* PBXContainerItemProxy */ = {
+		06AAA1D49DD460D30EA996488259B403 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
 			remoteInfo = YYModel;
 		};
-		84AB7873F50F69E6436C471C92105AB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		8AF1006B8F9486CBD0A76EEEB2D303DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DABEEDB783FDB37CAC82926D936D4359;
-			remoteInfo = "Pods-LopPaySDK_Example";
-		};
-		A1AC3A52991DBC15BFD5B4CC5269ED41 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
-		};
-		FD48E9A30D3DCBB05AA632441494237E /* PBXContainerItemProxy */ = {
+		0C4B08411CE21CCD48CA331BB9B824A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37812EAF47C022DCB16E9DC09E33F895;
 			remoteInfo = LopPaySDK;
 		};
+		3AA2FA7BE6D52CB4C4C1F030574763A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		594B5910611AFE3D14E6795FB2F7AC54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABEEDB783FDB37CAC82926D936D4359;
+			remoteInfo = "Pods-LopPaySDK_Example";
+		};
+		73B4808E2AEA078B07A6D6BB282D4413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		F8332FA3A7134CB4B8AE13CB6AD25577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FA54E5C61E0D7D2BB0984AFECFD06C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = LopPaySDK/Classes/SDKTest.framework/Info.plist; sourceTree = "<group>"; };
 		02439A76002B3F7508C481C892E06756 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		08D44287A8359D8FD68F56B3738FB1C4 /* LopPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LopPaySDK-Info.plist"; sourceTree = "<group>"; };
-		0F7C67468B2B6EA3200987BD6E54FCDA /* Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		0F5E57C60451E02AFD2FA4880A7852A6 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
 		12E5206C4DFBFE8F072822FCEE035BEA /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		17A64032032653225703519C7A2EC915 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
 		18166F8972CE9C9C29AB2F0E4DF47E28 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		1B4951323BAE084636A64A93F39C706C /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		24794B631F33B4099FD1B5AC3FE7E36F /* LopPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.release.xcconfig; sourceTree = "<group>"; };
 		2534DA97AE4F21894D0CC6B536597363 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		29C4E172F9D82401C68DB5B18705165E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		2A19F12BCD4B0D5DFEC2D5DAB061C67B /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
@@ -134,53 +136,56 @@
 		2BB02D70C17F332C68438F16C821B796 /* Pods-LopPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LopPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
 		2CE28D1A0BD2FF07D9CA42F71A7BA694 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		2E5CD7F11BFA2503773B0DB6B5A0D0A3 /* Pods-LopPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30A4EEDF9B43B7309640EA9139D46A24 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		320638DEF394468849B383690DEBAE63 /* Pods-LopPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LopPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3776583245C7FB3232523167F8B25357 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		395ACE0F1C8AB65AA478C7B92F7C2A65 /* Pods-LopPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
 		3C7D507316407B9791C257599F780A06 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		42D55EB3DC9F427DE13BBE95F6E441C6 /* LopPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LopPaySDK.modulemap; sourceTree = "<group>"; };
 		43CCF75A3889383FD0A88E125C949D57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		465F2B4F9C2BBB1AA870E739AE1F249F /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
 		4760C7D4E7BDA0B392D2644952A5F9DA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		4813CBAD82DA61187ED6F8ABEE50DF02 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		4F5F2318E3C69D7BAB9A51117DF2FF34 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
-		50E6C3247968F3852B96F1AA5FF290FB /* LopPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.release.xcconfig; sourceTree = "<group>"; };
 		514C55B671FFEDE218A84BD215F70389 /* Pods-LopPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		569692DE3E44DF3BB60347DB869B135B /* Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
 		57D25FD3061850C986E3E8FFCC27594E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		58C8E3D00696FF1B61096C20F65EECA1 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
-		595A4F176675BB4E24DBBFC4F80E4F6F /* LopPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.debug.xcconfig; sourceTree = "<group>"; };
 		5ECBBF52FC626381B6BF71E474BBEC46 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		5F6B54ADEC4E8F1B290F1A654A0A0ADE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		606EE1004C51CE745F439ADA434CD746 /* LopPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-prefix.pch"; sourceTree = "<group>"; };
+		6681CF812BB5616BD90C4E9E849F33DD /* SDKTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDKTest.framework; path = LopPaySDK/Classes/SDKTest.framework; sourceTree = "<group>"; };
 		6A9F7006A91BF047D09EB36E42212478 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
-		6EA3CDB221504A7248E6366670EE3AA5 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
 		756F5C19D6902C84CABCEACD95C81116 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		77FE7E83821C648A122086B8A54F5EB0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		7B207646C6042B3DEF1852F21C39717F /* Pods-LopPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		81C52485B56B4B18A0871E134C32727F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8334BF44F9DD19BF988B22240E5F538F /* LopPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LopPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85FFD8BA77550DFC9A2113FB5A19034D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		86672056A76ABB0B578A9457342F8B07 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		86938DB8C88FDDDC45BDFF2DC135B573 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		86FFEB9D44962F9951B4D2B948C980FC /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
 		87A1D3942E5946686ADAF6CDCE917E05 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		89C2E471E810274BA87E01090F891E4E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		89FFDABF8691148FCB0823FD2FBB84C2 /* SDKTest */ = {isa = PBXFileReference; includeInIndex = 1; name = SDKTest; path = LopPaySDK/Classes/SDKTest.framework/SDKTest; sourceTree = "<group>"; };
+		89E73AB3262132FCA62004BE34A13D09 /* LopPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.debug.xcconfig; sourceTree = "<group>"; };
 		8A979A04A07D561ECD17E42A748C24B5 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		8BE506D7F4B5DE3B926137F8A9912F29 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		915B576270905E9ABDE191FE719C98F5 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
 		91DF32ED39D153401A09F99723C846DC /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		93510321FA4493ED2DE79B9F094293DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92EFB4889560A809D2957B15B531A6F9 /* SDKTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKTest.h; sourceTree = "<group>"; };
 		93BE72040069E799A0A8FC81AFF962C4 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		93CD7DF0C667B0F449E199E1A91FE5A9 /* Pods-LopPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LopPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		950A727A2D6431BC454B38EE75ACDC2C /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
 		97DFBA366BF2B64B0966E51E28F4B14B /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		99B94F7F785AF7738CDD61857075DA13 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9CA7C77A910F04D5928C62AE1A76F35B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4E903B9864C74E60D0E2ACFE55CE3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9FF459FA2FF4AFFF6F58C922326857F9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		A020FECACB116830A297CA2FACF9FD5B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		A4D503C4F84E8331DD5D5039E4F75E31 /* LopPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64AFC7E653713F8F8BEC5B5DC9DC827 /* Pods-LopPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LopPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A722ED5F3705C45D399C0BB8D34D945C /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		AA006A3FAEF947CB8E78212650959893 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		AAD338E65767096BB0E27589E46BF9D5 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		AE2C5244F6FB808B9C53F9B03C5084E3 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		AEEAD02BE23B8481C06DAB1870941E7C /* Pods-LopPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2FA4D99F0D09FD8479ED85E7C11C562 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
@@ -191,35 +196,31 @@
 		B8B5B33A6CB151841BFECD41DB6252CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B8DEDF8922287F58A7676911F5A26351 /* Pods-LopPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LopPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C174644B0A7218F7E180FB4F558942F1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		C261621EDEA36D87DA6015BE01DEDC4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C522E7CCF79BBA216569AF462A72DA98 /* Pods-LopPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LopPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C62637246A549FFC6701E2C0B11E10B9 /* Pods-LopPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LopPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C885917354C08A32EE0DCC7DD8D00A39 /* LopPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LopPaySDK-dummy.m"; sourceTree = "<group>"; };
 		C8C9D0110C190D75A317258D78D5B850 /* Pods-LopPaySDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LopPaySDK_Example"; path = Pods_LopPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB0F59C6C8D0A5436708CAB99A6CE1FB /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		CBEA16D615CA1E2D99C5E259102C5F5E /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		CF500FFC58412B098E5E9E99758929B1 /* LopPaySDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LopPaySDK; path = LopPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CA6895C3AF64876A8FD967C34A28CB /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		D0D21D89254C740B8DCCB31AC642BA8A /* LopPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LopPaySDK-dummy.m"; sourceTree = "<group>"; };
-		D1B580CCD4634459D7C58F5C7C90F5B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = LopPaySDK/Classes/SDKTest.framework/Info.plist; sourceTree = "<group>"; };
 		D2098015C4BDE92A423CE07F220C6A8B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		D581F0023A03D702EE373B9AC253FCBA /* SDKTest */ = {isa = PBXFileReference; includeInIndex = 1; name = SDKTest; path = LopPaySDK/Classes/SDKTest.framework/SDKTest; sourceTree = "<group>"; };
 		D8BED98189C514ED1B08D6FB563FE18D /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		D93427D3A3597F8AE032AFE482464415 /* SDKTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKTest.h; sourceTree = "<group>"; };
+		D9D8314CDA36D10DBB99233DB30782FE /* LopPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LopPaySDK-Info.plist"; sourceTree = "<group>"; };
+		DA548F93C8B831F713BA8D944427F604 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
 		DA8B63EAC84B577520DC3E11640D1086 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		DDE29B65EE1588BBA57D306E0D2CD69E /* LopPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LopPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE0F2CA262714E46E5647736C02005B0 /* Pods-LopPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEFE0E8F5272097BC4A2F28050D489EA /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
 		E096509A78340A758BEA7B9AC2CFD6B9 /* Pods-LopPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		E108F0C3D06C3D652F8BDF013771C092 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		E3F15EC08BD9C09CD898549377722F11 /* LopPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-prefix.pch"; sourceTree = "<group>"; };
 		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7263975D15675D052CA3CF00E63B40B /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
 		EDEA32F272D45301602A194D945B1EAA /* Pods-LopPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LopPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		EDF946434D8168944AD8BD2EDCA7BE85 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		EE575F1D31C65FE09ED377984E6A828D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		EE59144095BAA3A397832FD51A0920F8 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		EFE7AE752D7F42ADDC0C2C92C83A4A08 /* LopPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		F3884F2098FDBA3054A883E6FE774A7C /* Pods-LopPaySDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LopPaySDK_Tests"; path = Pods_LopPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BD733274C5627E4EAEDDA55DB47197 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
 		FAD280ECE94EFFD25ECBF36B7A71410C /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
-		FD899D46C13A07F56792F52C4E4EAC51 /* LopPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LopPaySDK.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,12 +242,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7C608CFACAD4F8ADE48A0D7EABB0312 /* Frameworks */ = {
+		C1D05DC6B1F4BE7BE9A37C6C5748BB3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				512B8EADDA87DEC6A44C48241AD92BA6 /* CoreFoundation.framework in Frameworks */,
-				A13F6EAD8E519B028EF9AD59126F27F9 /* Foundation.framework in Frameworks */,
+				C1E072E31048A378B16CDB5DAB470C33 /* CoreFoundation.framework in Frameworks */,
+				7E37847CA0B1B2A1EFD80F5C5D158CE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,28 +303,17 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
-		33989E704627F2561B04746890BDE73C /* Support Files */ = {
+		36B19CCDE23AA5352B98299772216570 /* _CodeSignature */ = {
 			isa = PBXGroup;
 			children = (
-				FD899D46C13A07F56792F52C4E4EAC51 /* LopPaySDK.modulemap */,
-				D0D21D89254C740B8DCCB31AC642BA8A /* LopPaySDK-dummy.m */,
-				08D44287A8359D8FD68F56B3738FB1C4 /* LopPaySDK-Info.plist */,
-				E3F15EC08BD9C09CD898549377722F11 /* LopPaySDK-prefix.pch */,
-				EFE7AE752D7F42ADDC0C2C92C83A4A08 /* LopPaySDK-umbrella.h */,
-				595A4F176675BB4E24DBBFC4F80E4F6F /* LopPaySDK.debug.xcconfig */,
-				50E6C3247968F3852B96F1AA5FF290FB /* LopPaySDK.release.xcconfig */,
+				17A64032032653225703519C7A2EC915 /* CodeDirectory */,
+				F5BD733274C5627E4EAEDDA55DB47197 /* CodeRequirements */,
+				0F5E57C60451E02AFD2FA4880A7852A6 /* CodeRequirements-1 */,
+				EDF946434D8168944AD8BD2EDCA7BE85 /* CodeResources */,
+				DA548F93C8B831F713BA8D944427F604 /* CodeSignature */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LopPaySDK";
-			sourceTree = "<group>";
-		};
-		3D74FDE79B991545D3515AE6E09FFD82 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				CB0F59C6C8D0A5436708CAB99A6CE1FB /* module.modulemap */,
-			);
-			name = Modules;
-			path = LopPaySDK/Classes/SDKTest.framework/Modules;
+			name = _CodeSignature;
+			path = LopPaySDK/Classes/SDKTest.framework/_CodeSignature;
 			sourceTree = "<group>";
 		};
 		3F42494EC351B7FD35F4993560E4D03C /* Serialization */ = {
@@ -392,6 +382,45 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		61EDF502C036548DAFB3F77BDD3248CC /* LopPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				00FA54E5C61E0D7D2BB0984AFECFD06C /* Info.plist */,
+				D581F0023A03D702EE373B9AC253FCBA /* SDKTest */,
+				36B19CCDE23AA5352B98299772216570 /* _CodeSignature */,
+				67382E151259489D156F8E80742B6418 /* Frameworks */,
+				D51654CD41BBF598277200FFEF3D6BCD /* Headers */,
+				70D1D7A6A0C176D1D9C1D0A03EB1167C /* Modules */,
+				7619FCB639ABCE860563720653DB861B /* Pod */,
+				63134E74C4D09C1C3C486E5295D4F160 /* Support Files */,
+			);
+			name = LopPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		63134E74C4D09C1C3C486E5295D4F160 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D55EB3DC9F427DE13BBE95F6E441C6 /* LopPaySDK.modulemap */,
+				C885917354C08A32EE0DCC7DD8D00A39 /* LopPaySDK-dummy.m */,
+				D9D8314CDA36D10DBB99233DB30782FE /* LopPaySDK-Info.plist */,
+				606EE1004C51CE745F439ADA434CD746 /* LopPaySDK-prefix.pch */,
+				A4D503C4F84E8331DD5D5039E4F75E31 /* LopPaySDK-umbrella.h */,
+				89E73AB3262132FCA62004BE34A13D09 /* LopPaySDK.debug.xcconfig */,
+				24794B631F33B4099FD1B5AC3FE7E36F /* LopPaySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LopPaySDK";
+			sourceTree = "<group>";
+		};
+		67382E151259489D156F8E80742B6418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6681CF812BB5616BD90C4E9E849F33DD /* SDKTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6AEBF0126DFB98835E62B31268E3CEED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +434,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		70D1D7A6A0C176D1D9C1D0A03EB1167C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				30A4EEDF9B43B7309640EA9139D46A24 /* module.modulemap */,
+			);
+			name = Modules;
+			path = LopPaySDK/Classes/SDKTest.framework/Modules;
 			sourceTree = "<group>";
 		};
 		72416EFC01061307B5C314C23091BEEB /* Support Files */ = {
@@ -422,19 +460,14 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		74650F400443CE1938D8C55C2E852FF2 /* LopPaySDK */ = {
+		7619FCB639ABCE860563720653DB861B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D1B580CCD4634459D7C58F5C7C90F5B8 /* Info.plist */,
-				89FFDABF8691148FCB0823FD2FBB84C2 /* SDKTest */,
-				BBB22D272F7AF9E66AF90EDD00F552E2 /* _CodeSignature */,
-				D668074228A3D2630AACE07A8AD94B3C /* Headers */,
-				3D74FDE79B991545D3515AE6E09FFD82 /* Modules */,
-				C5EA9DF795C35FA1F39BFDCBFB210A55 /* Pod */,
-				33989E704627F2561B04746890BDE73C /* Support Files */,
+				3776583245C7FB3232523167F8B25357 /* LICENSE */,
+				8334BF44F9DD19BF988B22240E5F538F /* LopPaySDK.podspec */,
+				9CA7C77A910F04D5928C62AE1A76F35B /* README.md */,
 			);
-			name = LopPaySDK;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7803B6D39453F6E3898E6DE06E54F038 /* Pods-LopPaySDK_Example */ = {
@@ -479,10 +512,10 @@
 			path = "Target Support Files/Pods-LopPaySDK_Tests";
 			sourceTree = "<group>";
 		};
-		B4D3629ABEF471921F00319D4B5EE46D /* Development Pods */ = {
+		AD1B2C209B5CAB76B7A6DDB1E1F73CFD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74650F400443CE1938D8C55C2E852FF2 /* LopPaySDK */,
+				61EDF502C036548DAFB3F77BDD3248CC /* LopPaySDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -495,34 +528,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BBB22D272F7AF9E66AF90EDD00F552E2 /* _CodeSignature */ = {
-			isa = PBXGroup;
-			children = (
-				4F5F2318E3C69D7BAB9A51117DF2FF34 /* CodeDirectory */,
-				E7263975D15675D052CA3CF00E63B40B /* CodeRequirements */,
-				950A727A2D6431BC454B38EE75ACDC2C /* CodeRequirements-1 */,
-				AAD338E65767096BB0E27589E46BF9D5 /* CodeResources */,
-				6EA3CDB221504A7248E6366670EE3AA5 /* CodeSignature */,
-			);
-			name = _CodeSignature;
-			path = LopPaySDK/Classes/SDKTest.framework/_CodeSignature;
-			sourceTree = "<group>";
-		};
-		C5EA9DF795C35FA1F39BFDCBFB210A55 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				93510321FA4493ED2DE79B9F094293DA /* LICENSE */,
-				DDE29B65EE1588BBA57D306E0D2CD69E /* LopPaySDK.podspec */,
-				C261621EDEA36D87DA6015BE01DEDC4A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B4D3629ABEF471921F00319D4B5EE46D /* Development Pods */,
+				AD1B2C209B5CAB76B7A6DDB1E1F73CFD /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				4C0E6894721731994A1EC947FFB9B9D3 /* Pods */,
 				04F554B5B1C329D25723BB32BA1826A1 /* Products */,
@@ -530,11 +540,11 @@
 			);
 			sourceTree = "<group>";
 		};
-		D668074228A3D2630AACE07A8AD94B3C /* Headers */ = {
+		D51654CD41BBF598277200FFEF3D6BCD /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				0F7C67468B2B6EA3200987BD6E54FCDA /* Request.h */,
-				D93427D3A3597F8AE032AFE482464415 /* SDKTest.h */,
+				569692DE3E44DF3BB60347DB869B135B /* Request.h */,
+				92EFB4889560A809D2957B15B531A6F9 /* SDKTest.h */,
 			);
 			name = Headers;
 			path = LopPaySDK/Classes/SDKTest.framework/Headers;
@@ -616,14 +626,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6981CA83AD17AF95610FB2318971210A /* Headers */ = {
+		9640E11AEB758BFB53D032C1C95B63AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463645712E25FBA4C59B635ADE98220A /* NSObject+YYModel.h in Headers */,
-				5010C2CA0CB1FCA68A6898FE4F6B41F9 /* YYClassInfo.h in Headers */,
-				E12B398F5300D4363B76B5DDF0410984 /* YYModel.h in Headers */,
-				C70230053D5C0AD8D229768B13FD6FED /* YYModel-umbrella.h in Headers */,
+				A423BD37B84D50EF3ABB5644880BFC12 /* NSObject+YYModel.h in Headers */,
+				E957BA0E80BACAEE25825816A8649454 /* YYClassInfo.h in Headers */,
+				4C1D2B262F788902B74D65ECAB965A9E /* YYModel.h in Headers */,
+				27FC5233C2A14C82A4713E556ECE87D0 /* YYModel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,8 +678,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE98176B38A6D960905D34EE588E76AA /* PBXTargetDependency */,
-				579A746091F6897F88002CD90AE494E9 /* PBXTargetDependency */,
+				75CFF606CADA260AC3171EAF50D82D78 /* PBXTargetDependency */,
+				D6DCE31C798A5CBC68C7F05291C524EC /* PBXTargetDependency */,
 			);
 			name = LopPaySDK;
 			productName = LopPaySDK;
@@ -688,7 +698,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				22FFFF2B9416BAB40DCB82837F3DAB81 /* PBXTargetDependency */,
+				8C55AA397D6E07237FA67824FC72C91D /* PBXTargetDependency */,
 			);
 			name = "Pods-LopPaySDK_Tests";
 			productName = Pods_LopPaySDK_Tests;
@@ -697,12 +707,12 @@
 		};
 		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07DB07B7C291E43D8A6AF7B3F1AA4F28 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildConfigurationList = A9983705FE11AF97A80E4E428A881972 /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				6981CA83AD17AF95610FB2318971210A /* Headers */,
-				10EC0BF407110EC136A628D35775DCE6 /* Sources */,
-				B7C608CFACAD4F8ADE48A0D7EABB0312 /* Frameworks */,
-				71759B13F339870BB216439617FF0775 /* Resources */,
+				9640E11AEB758BFB53D032C1C95B63AB /* Headers */,
+				168A438F085A58F15CBCF63FEC8AB52A /* Sources */,
+				C1D05DC6B1F4BE7BE9A37C6C5748BB3F /* Frameworks */,
+				48FF5715CA1A6638DAAB0EADCE795989 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -725,9 +735,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				7ED276818C3E60D1CCB8E4CB517FF225 /* PBXTargetDependency */,
-				BED43994DA637A492728F3E6104F066D /* PBXTargetDependency */,
-				ADBC540DAE9DB3439B09F38A66FC97CF /* PBXTargetDependency */,
+				8FC22B1938FFBE75E4938B36CC5CC7F2 /* PBXTargetDependency */,
+				C4F187ACF688536D0FBD53A52CDE36B3 /* PBXTargetDependency */,
+				83415C110A86837FAF23BBD8A39435C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-LopPaySDK_Example";
 			productName = Pods_LopPaySDK_Example;
@@ -773,7 +783,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71759B13F339870BB216439617FF0775 /* Resources */ = {
+		48FF5715CA1A6638DAAB0EADCE795989 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -804,13 +814,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10EC0BF407110EC136A628D35775DCE6 /* Sources */ = {
+		168A438F085A58F15CBCF63FEC8AB52A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBC7399AB2B296121B18047319F93FA /* NSObject+YYModel.m in Sources */,
-				063696CF8378BCA43D884041153E2F0D /* YYClassInfo.m in Sources */,
-				716BA428F5A5ED64BB285EE9BE3B1324 /* YYModel-dummy.m in Sources */,
+				A9E23F89A25F24D117C30DDE69612D84 /* NSObject+YYModel.m in Sources */,
+				62554E9F2FC70931CAE2896D35D0CEED /* YYClassInfo.m in Sources */,
+				8F082996BDCC00215C17CFD10CD01745 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,48 +882,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22FFFF2B9416BAB40DCB82837F3DAB81 /* PBXTargetDependency */ = {
+		75CFF606CADA260AC3171EAF50D82D78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = F8332FA3A7134CB4B8AE13CB6AD25577 /* PBXContainerItemProxy */;
+		};
+		83415C110A86837FAF23BBD8A39435C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 06AAA1D49DD460D30EA996488259B403 /* PBXContainerItemProxy */;
+		};
+		8C55AA397D6E07237FA67824FC72C91D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LopPaySDK_Example";
 			target = DABEEDB783FDB37CAC82926D936D4359 /* Pods-LopPaySDK_Example */;
-			targetProxy = 8AF1006B8F9486CBD0A76EEEB2D303DE /* PBXContainerItemProxy */;
+			targetProxy = 594B5910611AFE3D14E6795FB2F7AC54 /* PBXContainerItemProxy */;
 		};
-		579A746091F6897F88002CD90AE494E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = 6B8347A9A9DF4231FA989A4D0EC23316 /* PBXContainerItemProxy */;
-		};
-		7ED276818C3E60D1CCB8E4CB517FF225 /* PBXTargetDependency */ = {
+		8FC22B1938FFBE75E4938B36CC5CC7F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 5FAC910421CA54F19D7BF1011AB21CAD /* PBXContainerItemProxy */;
+			targetProxy = 73B4808E2AEA078B07A6D6BB282D4413 /* PBXContainerItemProxy */;
 		};
-		ADBC540DAE9DB3439B09F38A66FC97CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = A1AC3A52991DBC15BFD5B4CC5269ED41 /* PBXContainerItemProxy */;
-		};
-		BE98176B38A6D960905D34EE588E76AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 84AB7873F50F69E6436C471C92105AB8 /* PBXContainerItemProxy */;
-		};
-		BED43994DA637A492728F3E6104F066D /* PBXTargetDependency */ = {
+		C4F187ACF688536D0FBD53A52CDE36B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LopPaySDK;
 			target = 37812EAF47C022DCB16E9DC09E33F895 /* LopPaySDK */;
-			targetProxy = FD48E9A30D3DCBB05AA632441494237E /* PBXContainerItemProxy */;
+			targetProxy = 0C4B08411CE21CCD48CA331BB9B824A7 /* PBXContainerItemProxy */;
+		};
+		D6DCE31C798A5CBC68C7F05291C524EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 3AA2FA7BE6D52CB4C4C1F030574763A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C4E9D188C842DCFDA80779EE3C7DA4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E6C3247968F3852B96F1AA5FF290FB /* LopPaySDK.release.xcconfig */;
+			baseConfigurationReference = 24794B631F33B4099FD1B5AC3FE7E36F /* LopPaySDK.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -931,37 +941,6 @@
 				MODULEMAP_FILE = "Target Support Files/LopPaySDK/LopPaySDK.modulemap";
 				PRODUCT_MODULE_NAME = LopPaySDK;
 				PRODUCT_NAME = LopPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0F9C9AD66F0E0AC752E0EDDD25FF3481 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEFE0E8F5272097BC4A2F28050D489EA /* YYModel.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1165,36 +1144,6 @@
 			};
 			name = Release;
 		};
-		9149192DE438CED6CC85928CB7DF1699 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86FFEB9D44962F9951B4D2B948C980FC /* YYModel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B7158789FA88B262EE986BD7BE6BC0AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEEAD02BE23B8481C06DAB1870941E7C /* Pods-LopPaySDK_Example.release.xcconfig */;
@@ -1221,6 +1170,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD9922BC618B181453E9435B03042588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFE0E8F5272097BC4A2F28050D489EA /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1324,7 +1304,7 @@
 		};
 		DEC883630B29C2C6AF65A266289CDD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595A4F176675BB4E24DBBFC4F80E4F6F /* LopPaySDK.debug.xcconfig */;
+			baseConfigurationReference = 89E73AB3262132FCA62004BE34A13D09 /* LopPaySDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1352,18 +1332,39 @@
 			};
 			name = Debug;
 		};
+		E67DF787BBAB96928A6C004B9BF6BAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FFEB9D44962F9951B4D2B948C980FC /* YYModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07DB07B7C291E43D8A6AF7B3F1AA4F28 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9149192DE438CED6CC85928CB7DF1699 /* Debug */,
-				0F9C9AD66F0E0AC752E0EDDD25FF3481 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3C5FEBF118654BAA9BFF64F3A33AB259 /* Build configuration list for PBXNativeTarget "Pods-LopPaySDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1378,6 +1379,15 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9983705FE11AF97A80E4E428A881972 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67DF787BBAB96928A6C004B9BF6BAC7 /* Debug */,
+				BD9922BC618B181453E9435B03042588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
