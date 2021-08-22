@@ -1,0 +1,16 @@
+PODS:
+  - LopPaySDK (0.1.0)
+
+DEPENDENCIES:
+  - LopPaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  LopPaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LopPaySDK: e4c404a991bcb6cf863c46215a4042d69da754a7
+
+PODFILE CHECKSUM: aae396dad71bfa8c07fe2ab515e77df24326e23c
+
+COCOAPODS: 1.11.0.beta.2

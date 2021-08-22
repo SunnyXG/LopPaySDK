@@ -1,0 +1,6 @@
+framework module LopPaySDK {
+  umbrella header "LopPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

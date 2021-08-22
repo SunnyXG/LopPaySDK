@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F1022EDC59D28A0B61D9FEEA51B6FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE790577671B57D1BEA72BBB20828164 /* ReplaceMe.m */; };
+		34FFE4FDF10A4FEDB0D7681B2A7D3EA8 /* Pods-LopPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CD7DF0C667B0F449E199E1A91FE5A9 /* Pods-LopPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DD70F6132EEEDCF494CE8610933ED7 /* Pods-LopPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320638DEF394468849B383690DEBAE63 /* Pods-LopPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EEB487D02A9D01FAED8BCC8AC6CB5E /* Pods-LopPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62637246A549FFC6701E2C0B11E10B9 /* Pods-LopPaySDK_Tests-dummy.m */; };
+		766529653C0A807A093FECAEB63AD259 /* LopPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CD7A1728B1687DC14ED3C8812AB72C /* LopPaySDK-dummy.m */; };
+		7CB7138F6271E5942841760CE9F4CBFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC82DAAB7EA20CBAC0D9ECB39A11F8CB /* LopPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E438C124CD6C7AB38EE446F673988CF0 /* LopPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65D798D0EF7540D4DA4A0C4E2CB0FDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB71C1F8276C6E2336FB6CCE0C857582 /* Pods-LopPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB02D70C17F332C68438F16C821B796 /* Pods-LopPaySDK_Example-dummy.m */; };
+		D8B1237F510340D6A398AFC9AE5CA336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BCAD1A678849CB62F357090AD0723A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37812EAF47C022DCB16E9DC09E33F895;
+			remoteInfo = LopPaySDK;
+		};
+		73EB2F0A90429A06436D383AA83F2B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABEEDB783FDB37CAC82926D936D4359;
+			remoteInfo = "Pods-LopPaySDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171B2E618AD88FC950E6A6AFEAAF373C /* LopPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LopPaySDK-Info.plist"; sourceTree = "<group>"; };
+		2AA58031692EBC075F48C6B5845CA418 /* Pods-LopPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB02D70C17F332C68438F16C821B796 /* Pods-LopPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LopPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		2E5CD7F11BFA2503773B0DB6B5A0D0A3 /* Pods-LopPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		320638DEF394468849B383690DEBAE63 /* Pods-LopPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LopPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		395ACE0F1C8AB65AA478C7B92F7C2A65 /* Pods-LopPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
+		514C55B671FFEDE218A84BD215F70389 /* Pods-LopPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58CD7A1728B1687DC14ED3C8812AB72C /* LopPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LopPaySDK-dummy.m"; sourceTree = "<group>"; };
+		6764CB9487428342997BFAC02D5E6B07 /* LopPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-prefix.pch"; sourceTree = "<group>"; };
+		708B1FF229AD01384C782BEB77D9FCCF /* LopPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LopPaySDK.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B207646C6042B3DEF1852F21C39717F /* Pods-LopPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C02362285D283226C201DAE41B1BC3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		88283CD7ABC6E4C1A49504AF51755053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93CD7DF0C667B0F449E199E1A91FE5A9 /* Pods-LopPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LopPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C93E5233B2369EE4746F44F27841D98 /* LopPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LopPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64AFC7E653713F8F8BEC5B5DC9DC827 /* Pods-LopPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LopPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE790577671B57D1BEA72BBB20828164 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LopPaySDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AEEAD02BE23B8481C06DAB1870941E7C /* Pods-LopPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LopPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7C6F89E7899DBC93B3B757A744F1885 /* Pods-LopPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LopPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		B8DEDF8922287F58A7676911F5A26351 /* Pods-LopPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LopPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C522E7CCF79BBA216569AF462A72DA98 /* Pods-LopPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LopPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C62637246A549FFC6701E2C0B11E10B9 /* Pods-LopPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LopPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8C9D0110C190D75A317258D78D5B850 /* Pods-LopPaySDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LopPaySDK_Example"; path = Pods_LopPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF500FFC58412B098E5E9E99758929B1 /* LopPaySDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LopPaySDK; path = LopPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0F2CA262714E46E5647736C02005B0 /* Pods-LopPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E096509A78340A758BEA7B9AC2CFD6B9 /* Pods-LopPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LopPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		E438C124CD6C7AB38EE446F673988CF0 /* LopPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LopPaySDK-umbrella.h"; sourceTree = "<group>"; };
+		E7F1CE2FF3B2980DCD9C66D75765B3AB /* LopPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.release.xcconfig; sourceTree = "<group>"; };
+		E863A3AAF2D971148F92EA9CB79DD2F3 /* LopPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LopPaySDK.debug.xcconfig; sourceTree = "<group>"; };
+		EDEA32F272D45301602A194D945B1EAA /* Pods-LopPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LopPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		F3884F2098FDBA3054A883E6FE774A7C /* Pods-LopPaySDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LopPaySDK_Tests"; path = Pods_LopPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E870FFF7AD2D1170C88C642AE2D7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB7138F6271E5942841760CE9F4CBFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3197D2822B1728FCA7F2898293CDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B1237F510340D6A398AFC9AE5CA336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FC1EBADD507BC2F2789D7F8EFA4D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65D798D0EF7540D4DA4A0C4E2CB0FDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422D80CF6FAC74655302AFC44A2A5ABC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				708B1FF229AD01384C782BEB77D9FCCF /* LopPaySDK.modulemap */,
+				58CD7A1728B1687DC14ED3C8812AB72C /* LopPaySDK-dummy.m */,
+				171B2E618AD88FC950E6A6AFEAAF373C /* LopPaySDK-Info.plist */,
+				6764CB9487428342997BFAC02D5E6B07 /* LopPaySDK-prefix.pch */,
+				E438C124CD6C7AB38EE446F673988CF0 /* LopPaySDK-umbrella.h */,
+				E863A3AAF2D971148F92EA9CB79DD2F3 /* LopPaySDK.debug.xcconfig */,
+				E7F1CE2FF3B2980DCD9C66D75765B3AB /* LopPaySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LopPaySDK";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CC91D4D4A02D7F9DA2A1E196011ACA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF500FFC58412B098E5E9E99758929B1 /* LopPaySDK */,
+				C8C9D0110C190D75A317258D78D5B850 /* Pods-LopPaySDK_Example */,
+				F3884F2098FDBA3054A883E6FE774A7C /* Pods-LopPaySDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FC2217D3E896E7EDF415DA9A8169742 /* LopPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE790577671B57D1BEA72BBB20828164 /* ReplaceMe.m */,
+				CDE4DBF289B3F024AF7CDF35CD5BB77C /* Pod */,
+				422D80CF6FAC74655302AFC44A2A5ABC /* Support Files */,
+			);
+			name = LopPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7803B6D39453F6E3898E6DE06E54F038 /* Pods-LopPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6F89E7899DBC93B3B757A744F1885 /* Pods-LopPaySDK_Example.modulemap */,
+				A64AFC7E653713F8F8BEC5B5DC9DC827 /* Pods-LopPaySDK_Example-acknowledgements.markdown */,
+				DE0F2CA262714E46E5647736C02005B0 /* Pods-LopPaySDK_Example-acknowledgements.plist */,
+				2BB02D70C17F332C68438F16C821B796 /* Pods-LopPaySDK_Example-dummy.m */,
+				C522E7CCF79BBA216569AF462A72DA98 /* Pods-LopPaySDK_Example-frameworks.sh */,
+				395ACE0F1C8AB65AA478C7B92F7C2A65 /* Pods-LopPaySDK_Example-Info.plist */,
+				93CD7DF0C667B0F449E199E1A91FE5A9 /* Pods-LopPaySDK_Example-umbrella.h */,
+				2AA58031692EBC075F48C6B5845CA418 /* Pods-LopPaySDK_Example.debug.xcconfig */,
+				AEEAD02BE23B8481C06DAB1870941E7C /* Pods-LopPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-LopPaySDK_Example";
+			path = "Target Support Files/Pods-LopPaySDK_Example";
+			sourceTree = "<group>";
+		};
+		7EBEF3F43C7E8C49FF08E37012772E25 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7803B6D39453F6E3898E6DE06E54F038 /* Pods-LopPaySDK_Example */,
+				839E19AD5447C296B4FC70318DA4079E /* Pods-LopPaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		839E19AD5447C296B4FC70318DA4079E /* Pods-LopPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA32F272D45301602A194D945B1EAA /* Pods-LopPaySDK_Tests.modulemap */,
+				B8DEDF8922287F58A7676911F5A26351 /* Pods-LopPaySDK_Tests-acknowledgements.markdown */,
+				2E5CD7F11BFA2503773B0DB6B5A0D0A3 /* Pods-LopPaySDK_Tests-acknowledgements.plist */,
+				C62637246A549FFC6701E2C0B11E10B9 /* Pods-LopPaySDK_Tests-dummy.m */,
+				E096509A78340A758BEA7B9AC2CFD6B9 /* Pods-LopPaySDK_Tests-Info.plist */,
+				320638DEF394468849B383690DEBAE63 /* Pods-LopPaySDK_Tests-umbrella.h */,
+				514C55B671FFEDE218A84BD215F70389 /* Pods-LopPaySDK_Tests.debug.xcconfig */,
+				7B207646C6042B3DEF1852F21C39717F /* Pods-LopPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-LopPaySDK_Tests";
+			path = "Target Support Files/Pods-LopPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		C5585E594214910C531D66C59DA0E03E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2217D3E896E7EDF415DA9A8169742 /* LopPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CDE4DBF289B3F024AF7CDF35CD5BB77C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C02362285D283226C201DAE41B1BC3F /* LICENSE */,
+				9C93E5233B2369EE4746F44F27841D98 /* LopPaySDK.podspec */,
+				88283CD7ABC6E4C1A49504AF51755053 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C5585E594214910C531D66C59DA0E03E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5CC91D4D4A02D7F9DA2A1E196011ACA0 /* Products */,
+				7EBEF3F43C7E8C49FF08E37012772E25 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4859AB09D1733D31312C536667357907 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DD70F6132EEEDCF494CE8610933ED7 /* Pods-LopPaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF87964F80D91DAF363725BEF7D005B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FFE4FDF10A4FEDB0D7681B2A7D3EA8 /* Pods-LopPaySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65BBBB58045CF2C123CC7A31BD8E9FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC82DAAB7EA20CBAC0D9ECB39A11F8CB /* LopPaySDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37812EAF47C022DCB16E9DC09E33F895 /* LopPaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D23E921991AB5C7491F47D0A56ED77 /* Build configuration list for PBXNativeTarget "LopPaySDK" */;
+			buildPhases = (
+				B65BBBB58045CF2C123CC7A31BD8E9FE /* Headers */,
+				4FB6E301DBF5E060E57AA3BD91E6FB48 /* Sources */,
+				C0E870FFF7AD2D1170C88C642AE2D7EA /* Frameworks */,
+				86F4F6543BB8887D74A2F8849A11471B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LopPaySDK;
+			productName = LopPaySDK;
+			productReference = CF500FFC58412B098E5E9E99758929B1 /* LopPaySDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FEE2108AE002EE3664F313E87FAAE20 /* Pods-LopPaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2A7C8F27F9D43C1BBF495BAF01DED1 /* Build configuration list for PBXNativeTarget "Pods-LopPaySDK_Tests" */;
+			buildPhases = (
+				4859AB09D1733D31312C536667357907 /* Headers */,
+				89290B02E55D2501F9D15C37FBB67DA2 /* Sources */,
+				CA3197D2822B1728FCA7F2898293CDCE /* Frameworks */,
+				97E2964AAF8FCD3F69218E44029CF9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BA4D4A6EC667B81E2F8605CA0F67CE /* PBXTargetDependency */,
+			);
+			name = "Pods-LopPaySDK_Tests";
+			productName = Pods_LopPaySDK_Tests;
+			productReference = F3884F2098FDBA3054A883E6FE774A7C /* Pods-LopPaySDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DABEEDB783FDB37CAC82926D936D4359 /* Pods-LopPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7252A1B5801FCC3FDA781C0E94F6D326 /* Build configuration list for PBXNativeTarget "Pods-LopPaySDK_Example" */;
+			buildPhases = (
+				5BF87964F80D91DAF363725BEF7D005B /* Headers */,
+				08138418570802815740AE59265F24D9 /* Sources */,
+				F8FC1EBADD507BC2F2789D7F8EFA4D8E /* Frameworks */,
+				0CD8A53F11ECC81175A4E6798424634F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B74D808FBBEF712AB30CDE14300F1C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-LopPaySDK_Example";
+			productName = Pods_LopPaySDK_Example;
+			productReference = C8C9D0110C190D75A317258D78D5B850 /* Pods-LopPaySDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CC91D4D4A02D7F9DA2A1E196011ACA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37812EAF47C022DCB16E9DC09E33F895 /* LopPaySDK */,
+				DABEEDB783FDB37CAC82926D936D4359 /* Pods-LopPaySDK_Example */,
+				7FEE2108AE002EE3664F313E87FAAE20 /* Pods-LopPaySDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD8A53F11ECC81175A4E6798424634F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4F6543BB8887D74A2F8849A11471B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E2964AAF8FCD3F69218E44029CF9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08138418570802815740AE59265F24D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB71C1F8276C6E2336FB6CCE0C857582 /* Pods-LopPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB6E301DBF5E060E57AA3BD91E6FB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766529653C0A807A093FECAEB63AD259 /* LopPaySDK-dummy.m in Sources */,
+				17F1022EDC59D28A0B61D9FEEA51B6FF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89290B02E55D2501F9D15C37FBB67DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EEB487D02A9D01FAED8BCC8AC6CB5E /* Pods-LopPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B74D808FBBEF712AB30CDE14300F1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LopPaySDK;
+			target = 37812EAF47C022DCB16E9DC09E33F895 /* LopPaySDK */;
+			targetProxy = 1BCAD1A678849CB62F357090AD0723A3 /* PBXContainerItemProxy */;
+		};
+		D2BA4D4A6EC667B81E2F8605CA0F67CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LopPaySDK_Example";
+			target = DABEEDB783FDB37CAC82926D936D4359 /* Pods-LopPaySDK_Example */;
+			targetProxy = 73EB2F0A90429A06436D383AA83F2B81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D797D5A7C8B3DF88AA7C923E234E362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E863A3AAF2D971148F92EA9CB79DD2F3 /* LopPaySDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LopPaySDK/LopPaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LopPaySDK/LopPaySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LopPaySDK/LopPaySDK.modulemap";
+				PRODUCT_MODULE_NAME = LopPaySDK;
+				PRODUCT_NAME = LopPaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FFA7CCE3566AC1C5F9FEBA568FD995E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA58031692EBC075F48C6B5845CA418 /* Pods-LopPaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		484D150BBEB4AE746C14017AB350D0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514C55B671FFEDE218A84BD215F70389 /* Pods-LopPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CC033BC4BA36D2EEDE682E335A76C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F1CE2FF3B2980DCD9C66D75765B3AB /* LopPaySDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LopPaySDK/LopPaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LopPaySDK/LopPaySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LopPaySDK/LopPaySDK.modulemap";
+				PRODUCT_MODULE_NAME = LopPaySDK;
+				PRODUCT_NAME = LopPaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DA1811A952808011AAFC6712BCB1B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B207646C6042B3DEF1852F21C39717F /* Pods-LopPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C22626BAE1821CFD561C17BF02EA2EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEAD02BE23B8481C06DAB1870941E7C /* Pods-LopPaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D23E921991AB5C7491F47D0A56ED77 /* Build configuration list for PBXNativeTarget "LopPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D797D5A7C8B3DF88AA7C923E234E362 /* Debug */,
+				6CC033BC4BA36D2EEDE682E335A76C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7252A1B5801FCC3FDA781C0E94F6D326 /* Build configuration list for PBXNativeTarget "Pods-LopPaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFA7CCE3566AC1C5F9FEBA568FD995E /* Debug */,
+				C22626BAE1821CFD561C17BF02EA2EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2A7C8F27F9D43C1BBF495BAF01DED1 /* Build configuration list for PBXNativeTarget "Pods-LopPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D150BBEB4AE746C14017AB350D0C6 /* Debug */,
+				8DA1811A952808011AAFC6712BCB1B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
