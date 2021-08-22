@@ -1,9 +1,9 @@
 {
   "name": "LopPaySDK",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of LopPaySDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhangx7635093@163.com/LopPaySDK",
+  "description": "A short description of LopPaySDK.",
+  "homepage": "https://github.com/SunnyXG/LopPaySDK.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,24 @@
     "zhangx7635093@163.com": "517113739@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhangx7635093@163.com/LopPaySDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/SunnyXG/LopPaySDK.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LopPaySDK/Classes/**/*"
+  "source_files": "LopPaySDK/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
 }

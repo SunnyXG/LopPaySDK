@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.vendored_frameworks = 'LopPaySDK/Classes/SDKTest.framework'
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'

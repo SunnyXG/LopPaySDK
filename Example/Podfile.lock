@@ -1,15 +1,40 @@
 PODS:
-  - LopPaySDK (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LopPaySDK (0.2.0):
+    - AFNetworking
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - LopPaySDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - YYModel
 
 EXTERNAL SOURCES:
   LopPaySDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LopPaySDK: e4c404a991bcb6cf863c46215a4042d69da754a7
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LopPaySDK: 90ac22a1a5a5e696652fdc2f4d06f454fab77343
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: aae396dad71bfa8c07fe2ab515e77df24326e23c
 

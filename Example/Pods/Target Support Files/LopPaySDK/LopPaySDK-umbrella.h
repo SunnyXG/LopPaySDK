@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "Request.h"
+#import "SDKTest.h"
 
 FOUNDATION_EXPORT double LopPaySDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char LopPaySDKVersionString[];
