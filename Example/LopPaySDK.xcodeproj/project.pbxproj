@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2157C3D89D44825DB9C8A570 /* LopPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LopPaySDK.podspec; path = ../LopPaySDK.podspec; sourceTree = "<group>"; };
+		2157C3D89D44825DB9C8A570 /* LopPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LopPaySDK.podspec; path = ../LopPaySDK.podspec; sourceTree = "<group>"; };
 		28EDC90149D65D4A296A2C47 /* Pods_LopPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402883545656750F090E5605 /* Pods_LopPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D68E135BCD3D89F470253E /* Pods-LopPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopPaySDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BA2DE5A36CDD4587CA1B522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7BA2DE5A36CDD4587CA1B522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89FD03FAD19075B9FC003E81 /* Pods-LopPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopPaySDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA99467427A1F1576CF1732 /* Pods-LopPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopPaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-LopPaySDK_Tests/Pods-LopPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA375DD88AA915B2301E2273 /* Pods-LopPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopPaySDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LopPaySDK_Example/Pods-LopPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA486E3E691A3B6390DF5A42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA486E3E691A3B6390DF5A42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				50D68E135BCD3D89F470253E /* Pods-LopPaySDK_Tests.debug.xcconfig */,
 				DAA99467427A1F1576CF1732 /* Pods-LopPaySDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -501,10 +501,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LopPaySDK/LopPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LopPaySDK/LopPaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,10 +519,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LopPaySDK/LopPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LopPaySDK/LopPaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
